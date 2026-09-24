@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+Write your story here: who you are, what draws you to data science, and how books/history/math/writing shape how you think about it.

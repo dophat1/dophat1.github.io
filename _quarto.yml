@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Phat Do"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - href: notes/index.qmd
+        text: Notes
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/custom.css
+    toc: true

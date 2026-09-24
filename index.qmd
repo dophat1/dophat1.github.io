@@ -1,0 +1,8 @@
+---
+title: "Phat Do"
+---
+
+Data science student with a soft spot for old books, forgotten equations, and long-dead historians.
+
+I build things that sit at the intersection of numbers and narrative — see [Projects](projects/index.qmd) for the data science work, or [Notes](notes/index.qmd) for the writing.
+

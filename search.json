@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "notes/2026-09-24-first-entry.html",
-    "href": "notes/2026-09-24-first-entry.html",
-    "title": "First entry",
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Notes",
     "section": "",
-    "text": "This is the first born post of this blog. I write this during my 20s. Im currently so lost with everything. I guess it is existential crisis that most people encounter during their 20s. Im finding my way out by start building things."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My name is Phat Do\nI am a libertarian.\nI love books, stories, history, philosophy, and maths.\nMy ultimate goal for life is having fun by following my curiosity with scorching passion.\nMy passions vary a lot overtime since my brain receptors are kind of cooked (deep fried).\n\nI’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you love. And that is as true for your work as it is for your lovers. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it. And, like any great relationship, it just gets better and better as the years roll on. So keep looking until you find it. Don’t settle.\n\nI love Elon Musk (no homo but still… he’s a cool guy) and Steve Jobs. I want to find more “niche” figures for being different but these 2 guys are just… too outstanding and unmatched for me."
+    "text": "First entry\n\n\n\nmisc-thoughts\n\n\n\n\n\n\n\n\n\nSep 24, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -21,17 +14,59 @@
     "text": "Data science student with a soft spot for old books, forgotten equations, and long-dead historians.\nI build things that sit at the intersection of numbers and narrative — see Projects for the data science work, or Notes for the writing."
   },
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "Notes",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "First entry\n\n\n\nmisc-thoughts\n\n\n\n\n\n\n\n\n\nSep 24, 2026\n\n\n\n\n\nNo matching items"
+    "text": "My name is Phat Do\nI am a libertarian.\nI love books, stories, history, philosophy, and maths.\nMy ultimate goal for life is having fun by following my curiosity with scorching passion.\nMy passions vary a lot overtime since my brain receptors are kind of cooked (deep fried).\n\nI’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you love. And that is as true for your work as it is for your lovers. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it. And, like any great relationship, it just gets better and better as the years roll on. So keep looking until you find it. Don’t settle.\n\nI love Elon Musk (no homo but still… he’s a cool guy) and Steve Jobs. I want to find more “niche” figures for being different but these 2 guys are just… too outstanding and unmatched for me."
+  },
+  {
+    "objectID": "notes/2026-09-24-first-entry.html",
+    "href": "notes/2026-09-24-first-entry.html",
+    "title": "First entry",
+    "section": "",
+    "text": "This is the first born post of this blog. I write this during my 20s. Im currently so lost with everything. I guess it is existential crisis that most people encounter during their 20s. Im finding my way out by start building things."
+  },
+  {
+    "objectID": "projects/animerec.html",
+    "href": "projects/animerec.html",
+    "title": "Anime Recommendation System",
+    "section": "",
+    "text": "*small note: anime = japanese animated movies\nI have fallen in love with anime since I was in secondary school. And whenever I finish one, I always wonder are there any similar movies to what I have watched. At the time the only way was just to google it. But now, after studying machine learning, I had another interesting way to do the task."
+  },
+  {
+    "objectID": "projects/animerec.html#why-i-did-this",
+    "href": "projects/animerec.html#why-i-did-this",
+    "title": "Anime Recommendation System",
+    "section": "",
+    "text": "*small note: anime = japanese animated movies\nI have fallen in love with anime since I was in secondary school. And whenever I finish one, I always wonder are there any similar movies to what I have watched. At the time the only way was just to google it. But now, after studying machine learning, I had another interesting way to do the task."
+  },
+  {
+    "objectID": "projects/animerec.html#the-data",
+    "href": "projects/animerec.html#the-data",
+    "title": "Anime Recommendation System",
+    "section": "The data",
+    "text": "The data\nI took this from a public API which has quite a lot of titles."
+  },
+  {
+    "objectID": "projects/animerec.html#where-do-i-land",
+    "href": "projects/animerec.html#where-do-i-land",
+    "title": "Anime Recommendation System",
+    "section": "Where do I land ?",
+    "text": "Where do I land ?\nI finished the project with just jupyter notebook, so if you want to test it, you have to download and do all the stuffs again (yes, sorry for my limited programming skills). I implemented (with scikit learn, but I get it under the hood, trust me bro) knn and hierachical (hope I wrote it correctly) clustering, but just for easy peasy features (yes, sorry again for not knowing how to do NLP)."
+  },
+  {
+    "objectID": "projects/animerec.html#what-will-i-explore-next",
+    "href": "projects/animerec.html#what-will-i-explore-next",
+    "title": "Anime Recommendation System",
+    "section": "What will I explore next ?",
+    "text": "What will I explore next ?\nI will go back to this later and try to do some NLP to suggest based on the content of the film as well. I was intend to do it by AI - since I think classical NLP is kinda of outdated, but the AI API are so expensive for a random project like this, so maybe next time I will try to implement an open source one.\nIf you want to explore more, I did write a more in depth in the repo below.\nView the full code and data on GitHub"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "No matching items"
+    "text": "Anime Recommendation System\n\n\nFind your next favourite anime\n\n\n\n\n\n\nDec 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

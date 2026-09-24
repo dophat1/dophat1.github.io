@@ -1,0 +1,7 @@
+---
+title: "First entry"
+date: 2026-09-24
+categories: [misc-thoughts]
+---
+
+This is the first born post of this blog. I write this during my 20s. Im currently so lost with everything. I guess it is existential crisis that most people encounter during their 20s. Im finding my way out by start building things.

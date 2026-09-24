@@ -3,6 +3,6 @@ title: "Projects"
 listing:
   contents: .
   sort: "title"
-  type: gridgi
+  type: grid
 page-layout: full
 ---

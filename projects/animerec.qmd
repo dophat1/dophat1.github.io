@@ -1,0 +1,28 @@
+---
+title: "Anime Recommendation System"
+description: "Find your next favourite anime"
+date: 2025-12-16
+categories: [recommender system, machine learning]
+---
+
+## Why I did this ? 
+
+*small note: anime = japanese animated movies
+
+I have fallen in love with anime since I was in secondary school. And whenever I finish one, I always wonder are there any similar movies to what I have watched. At the time the only way was just to google it. But now, after studying machine learning, I had another *interesting* way to do the task. 
+
+## The data
+
+I took this from a public API which has quite a lot of titles. 
+
+## Where do I land ? 
+
+I finished the project with just jupyter notebook, so if you want to test it, you have to download and do all the stuffs again (yes, sorry for my limited programming skills). I implemented (with scikit learn, but I get it under the hood, trust me bro) knn and hierachical (hope I wrote it correctly) clustering, but just for easy peasy features (yes, sorry again for not knowing how to do NLP).
+
+## What will I explore next ? 
+
+I will go back to this later and try to do some NLP to suggest based on the content of the film as well. I was intend to do it by AI - since I think classical NLP is kinda of *outdated*, but the AI API are so expensive for a random project like this, so maybe next time I will try to implement an open source one. 
+
+If you want to explore more, I did write a more in depth in the repo below. 
+
+[View the full code and data on GitHub](https://github.com/dophat1/anime-recommendation)

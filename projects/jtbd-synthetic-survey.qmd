@@ -1,6 +1,6 @@
 ---
 title: "Synthetic survey for segmentation according to JTBD method"
-description:
+description: ""
 date: 2026-06-15
 categories: [data augmentation, clustering]
 ---

@@ -2,17 +2,6 @@
 title: "Phat Do"
 ---
 
-```{=html}
-<svg viewBox="0 0 600 140" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:500px; display:block; margin: 1rem 0;">
-  <rect x="10" y="10" width="35" height="100" fill="#8c3a3a" rx="2"/>
-  <rect x="50" y="20" width="30" height="90" fill="#3f5d4f" rx="2"/>
-  <rect x="85" y="5"  width="40" height="105" fill="#33506b" rx="2"/>
-  <rect x="130" y="25" width="28" height="85" fill="#b98a2e" rx="2"/>
-  <rect x="163" y="15" width="35" height="95" fill="#6b4534" rx="2"/>
-  <rect x="0" y="112" width="220" height="14" fill="#3f2a1f" rx="2"/>
-</svg>
-```
-
 Data science student with a soft spot for old books, forgotten equations, and long-dead historians.
 
 I build things that sit at the intersection of numbers and narrative — see [Projects](projects/index.qmd) for the data science work, or [Notes](notes/index.qmd) for the writing.

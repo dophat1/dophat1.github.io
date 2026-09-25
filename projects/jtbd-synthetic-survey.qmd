@@ -1,0 +1,30 @@
+---
+title: "Synthetic survey for segmentation according to JTBD method"
+description:
+date: 2026-06-15
+categories: [data augmentation, clustering]
+---
+
+## Why I did this ? 
+
+This is a group project which I did in my curriculum. We have to imply the jobs to be done method (jtbd) by Tony Ulwick, which goal is to find the real need of a specific target group and improve based on their need in the most efficient way, with clear, algorithmetic process.
+
+## The data
+
+The data was fully synthethized with open AI model gpt-4o (for cost effieciency). Our partner - who responsible for collecting real data for comparison - unfortunately didnt fulfill their task, therefore I cannot evaluate how close the AI-generated data to the real world data.
+
+## Where do I land ? 
+
+I am responsible for the technical side (mostly vibe-coded but yeah... its 2026 now. Who is not vibe coding now ?). The process has 3 distinct steps. The goal is to segmenting individuals (synthetic personas) based on synthetic answers of predefined questions list.
+
+1. Create different personas with a [Big 5 Model](https://en.wikipedia.org/wiki/Big_Five_personality_traits) using a system prompt python script which call OpenAI API.
+
+2. Feed the question list (given from start) + the personas and let the openAI API performs the survey.
+
+3. Get the questions, run the algorithm and see the segmenting result. 
+
+For the full result and you want replication, visit my [github repo](https://github.com/dophat1/jtbd-synthetic-survey). Give it a star if you like the project. Thanks !
+
+## What will I explore next ? 
+
+The project is quite end-to-end now so I dont think I will add anything else. I wish I could somehow validate (or compare) real vs synthetic one but that requires too much effort and time. So I just let it be that way. 

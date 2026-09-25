@@ -1,13 +1,13 @@
 ---
-title: "Synthetic survey for segmentation according to JTBD method"
-description: ""
+title: "Synthetic survey for customer segmentation"
+description: "Augmentation data for survey with JTBD method"
 date: 2026-06-15
 categories: [data augmentation, clustering]
 ---
 
 ## Why I did this ? 
 
-This is a group project which I did in my curriculum. We have to imply the jobs to be done method (jtbd) by Tony Ulwick, which goal is to find the real need of a specific target group and improve based on their need in the most efficient way, with clear, algorithmetic process.
+This is a group project which I did in my curriculum. We have to imply the [jobs-to-be-done method](https://strategyn.com/jobs-to-be-done/) by Tony Ulwick, which goal is to find the real need of a specific target group and improve based on their need in the most efficient way, with clear, algorithmetic process.
 
 ## The data
 

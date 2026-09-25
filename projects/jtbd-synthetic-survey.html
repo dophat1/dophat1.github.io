@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-15">
 
-<title>Projects – Phat Do</title>
+<title>Synthetic survey for segmentation according to JTBD method – Phat Do</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -75,65 +74,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../assets/css/custom.css">
 </head>
@@ -164,7 +105,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -179,25 +120,44 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-i-did-this" id="toc-why-i-did-this" class="nav-link active" data-scroll-target="#why-i-did-this">Why I did this ?</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The data</a></li>
+  <li><a href="#where-do-i-land" id="toc-where-do-i-land" class="nav-link" data-scroll-target="#where-do-i-land">Where do I land ?</a></li>
+  <li><a href="#what-will-i-explore-next" id="toc-what-will-i-explore-next" class="nav-link" data-scroll-target="#what-will-i-explore-next">What will I explore next ?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
+<h1 class="title">Synthetic survey for segmentation according to JTBD method</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">data augmentation</div>
+    <div class="quarto-category">clustering</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 15, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -207,75 +167,32 @@ window.Quarto = {
 </header>
 
 
+<section id="why-i-did-this" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-did-this">Why I did this ?</h2>
+<p>This is a group project which I did in my curriculum. We have to imply the jobs to be done method (jtbd) by Tony Ulwick, which goal is to find the real need of a specific target group and improve based on their need in the most efficient way, with clear, algorithmetic process.</p>
+</section>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The data</h2>
+<p>The data was fully synthethized with open AI model gpt-4o (for cost effieciency). Our partner - who responsible for collecting real data for comparison - unfortunately didnt fulfill their task, therefore I cannot evaluate how close the AI-generated data to the real world data.</p>
+</section>
+<section id="where-do-i-land" class="level2">
+<h2 class="anchored" data-anchor-id="where-do-i-land">Where do I land ?</h2>
+<p>I am responsible for the technical side (mostly vibe-coded but yeah… its 2026 now. Who is not vibe coding now ?). The process has 3 distinct steps. The goal is to segmenting individuals (synthetic personas) based on synthetic answers of predefined questions list.</p>
+<ol type="1">
+<li><p>Create different personas with a <a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">Big 5 Model</a> using a system prompt python script which call OpenAI API.</p></li>
+<li><p>Feed the question list (given from start) + the personas and let the openAI API performs the survey.</p></li>
+<li><p>Get the questions, run the algorithm and see the segmenting result.</p></li>
+</ol>
+<p>For the full result and you want replication, visit my <a href="https://github.com/dophat1/jtbd-synthetic-survey">github repo</a>. Give it a star if you like the project. Thanks !</p>
+</section>
+<section id="what-will-i-explore-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-will-i-explore-next">What will I explore next ?</h2>
+<p>The project is quite end-to-end now so I dont think I will add anything else. I wish I could somehow validate (or compare) real vs synthetic one but that requires too much effort and time. So I just let it be that way.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cmVjb21tZW5kZXIlMjBzeXN0ZW0lMkNtYWNoaW5lJTIwbGVhcm5pbmc=" data-listing-date-sort="1765818000000" data-listing-file-modified-sort="1790271793622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
-<a href="../projects/animerec.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Anime Recommendation System
-</h5>
-<div class="card-text listing-description delink">
-<p>Find your next favourite anime</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Dec 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZGF0YSUyMGF1Z21lbnRhdGlvbiUyQ2NsdXN0ZXJpbmc=" data-listing-date-sort="1781456400000" data-listing-file-modified-sort="1790320794682" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
-<a href="../projects/jtbd-synthetic-survey.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Synthetic survey for segmentation according to JTBD method
-</h5>
-<div class="card-text listing-description delink">
-This is a group project which I did in my curriculum. We have to imply the jobs to be done method (jtbd) by Tony Ulwick, which goal is to find the real need of a specific…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jun 15, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1790268859940">
-<a href="../projects/stylometry.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

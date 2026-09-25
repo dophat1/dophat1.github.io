@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/notes/index.html",
-    "items": [
-      "/notes/2026-09-24-first-entry.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/animerec.html",
-      "/projects/character-network.html",
+      "/projects/jtbd-synthetic-survey.html",
       "/projects/stylometry.html"
+    ]
+  },
+  {
+    "listing": "/notes/index.html",
+    "items": [
+      "/notes/2026-09-24-first-entry.html"
     ]
   }
 ]

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Anime Recommendation System\n\n\nFind your next favourite anime\n\n\n\n\n\n\nDec 16, 2025\n\n\n\n\n\n\n\n\n\n\n\nSynthetic survey for segmentation according to JTBD method\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "notes/index.html",
     "href": "notes/index.html",
     "title": "Notes",
@@ -63,10 +70,38 @@
     "text": "What will I explore next ?\nI will go back to this later and try to do some NLP to suggest based on the content of the film as well. I was intend to do it by AI - since I think classical NLP is kinda of outdated, but the AI API are so expensive for a random project like this, so maybe next time I will try to implement an open source one.\nIf you want to explore more, I did write a more in depth in the repo below.\nView the full code and data on GitHub"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/jtbd-synthetic-survey.html",
+    "href": "projects/jtbd-synthetic-survey.html",
+    "title": "Synthetic survey for segmentation according to JTBD method",
     "section": "",
-    "text": "Anime Recommendation System\n\n\nFind your next favourite anime\n\n\n\n\n\n\nDec 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a group project which I did in my curriculum. We have to imply the jobs to be done method (jtbd) by Tony Ulwick, which goal is to find the real need of a specific target group and improve based on their need in the most efficient way, with clear, algorithmetic process."
+  },
+  {
+    "objectID": "projects/jtbd-synthetic-survey.html#why-i-did-this",
+    "href": "projects/jtbd-synthetic-survey.html#why-i-did-this",
+    "title": "Synthetic survey for segmentation according to JTBD method",
+    "section": "",
+    "text": "This is a group project which I did in my curriculum. We have to imply the jobs to be done method (jtbd) by Tony Ulwick, which goal is to find the real need of a specific target group and improve based on their need in the most efficient way, with clear, algorithmetic process."
+  },
+  {
+    "objectID": "projects/jtbd-synthetic-survey.html#the-data",
+    "href": "projects/jtbd-synthetic-survey.html#the-data",
+    "title": "Synthetic survey for segmentation according to JTBD method",
+    "section": "The data",
+    "text": "The data\nThe data was fully synthethized with open AI model gpt-4o (for cost effieciency). Our partner - who responsible for collecting real data for comparison - unfortunately didnt fulfill their task, therefore I cannot evaluate how close the AI-generated data to the real world data."
+  },
+  {
+    "objectID": "projects/jtbd-synthetic-survey.html#where-do-i-land",
+    "href": "projects/jtbd-synthetic-survey.html#where-do-i-land",
+    "title": "Synthetic survey for segmentation according to JTBD method",
+    "section": "Where do I land ?",
+    "text": "Where do I land ?\nI am responsible for the technical side (mostly vibe-coded but yeah… its 2026 now. Who is not vibe coding now ?). The process has 3 distinct steps. The goal is to segmenting individuals (synthetic personas) based on synthetic answers of predefined questions list.\n\nCreate different personas with a Big 5 Model using a system prompt python script which call OpenAI API.\nFeed the question list (given from start) + the personas and let the openAI API performs the survey.\nGet the questions, run the algorithm and see the segmenting result.\n\nFor the full result and you want replication, visit my github repo. Give it a star if you like the project. Thanks !"
+  },
+  {
+    "objectID": "projects/jtbd-synthetic-survey.html#what-will-i-explore-next",
+    "href": "projects/jtbd-synthetic-survey.html#what-will-i-explore-next",
+    "title": "Synthetic survey for segmentation according to JTBD method",
+    "section": "What will I explore next ?",
+    "text": "What will I explore next ?\nThe project is quite end-to-end now so I dont think I will add anything else. I wish I could somehow validate (or compare) real vs synthetic one but that requires too much effort and time. So I just let it be that way."
   }
 ]

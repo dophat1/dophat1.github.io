@@ -132,3 +132,19 @@ pre, div.sourceCode {
   padding: 0.4rem 0;
   margin-bottom: 1.5rem;
 }
+
+/* Title — bigger, bold */
+.listing-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.4rem;
+}
+
+/* Description — smaller, lighter */
+.listing-description {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.85;
+}
